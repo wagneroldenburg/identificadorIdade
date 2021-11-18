@@ -6,34 +6,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="estilo.css">
-  <title>Hora do Dia</title>
+  <title>Contagem</title>
 
 </head>
 
 <body>
   
   <header>  
-    <h1>Verificador de Idade</h1>
+    <h1>Vamos contar</h1>
   </header>
 
   <section>
       <div id="msg">
-       <p>Ano de Nascimento: 
-         <input type="number" name="txtano" id="txtano" min="0">
+       <p>Início: 
+         <input type="number" name="inicio" id="txti" min="0">
        </p>
-       <p>Sexo:
-         <input type="radio" name="radsex" id="masc" checked>
-         <label for="masc">Masculino</label>
-         <input type="radio" name="radsex" id="fem">
-         <label for="masc">Feminino</label>
+       <p>Fim: 
+         <input type="number" name="fim" id="txtf" min="0">
+       </p>
+       <p>Passo: 
+         <input type="number" name="passo" id="txtp" min="0">
        </p>
        <p>
-         <input type="button" name="" id="" value="Verificar" onclick="verificar()">
+         <input type="button" name="" id="" value="Contar" onclick="contar()">
        </p>
       </div>
 
       <div id="res">
-        Preencha os dados acima para ver os resultados!
+        Preparando a contagem...
       </div>
      
   </section>
